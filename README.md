@@ -1,3 +1,1 @@
-The source code for my homepage. 
-
-Changing your domain name to: [markolalovic.com](https://markolalovic.com)
+The source code for my homepage [https://markolalovic.github.io/](https://markolalovic.github.io/)
