@@ -1,1 +1,1 @@
-My personal website accessible at [https://markolalovic.github.io/](https://markolalovic.github.io/)
+My personal website accessible at [https://lalovic.me/](https://lalovic.me/)
