@@ -5,6 +5,13 @@
         <meta name="description" content="Marko Lalovic's homepage." />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Marko Lalovic</title>
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <!-- Favicon -->
         <link
             rel="apple-touch-icon"
             sizes="180x180"
@@ -53,6 +60,12 @@
                 body {
                     color: rgb(20, 20, 20);
                     background-color: rgb(243, 243, 243);
+                    a:link {
+                        text-decoration: none;
+                    }
+                    a:hover {
+                        text-decoration: underline;
+                    }                    
                 }
             }
 
@@ -60,24 +73,18 @@
                 text-align: center;
                 padding: 5% 10%;
             }
-            h1 {
-                font-size: 50px;
-            }
             body {
                 font-size: 1.2rem;
-                font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
-                    "Helvetica Neue", Helvetica, Arial, "Lucida Grande",
-                    sans-serif;
-                font-weight: 300;
+                font-family: noto sans, sans-serif;
             }
             article {
                 display: block;
                 text-align: left;
-                max-width: 600px;
+                max-width: 650px;
                 margin: 0 auto;
             }
             p.line-height {
-                line-height: 1.5;
+                line-height: 1.6;
             }
         </style>
     </head>
