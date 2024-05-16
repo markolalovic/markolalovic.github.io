@@ -18,7 +18,7 @@ $ bundle exec jekyll serve
 
 Tested locally with:
 
-	* jekyll-theme-midnight (0.2.0)
-    * webrick (1.8.1)
-    * jekyll version 3.9.3
-    * ruby 3.1.3p185 (2022-11-24 revision 1a6b16756e) [arm64-darwin23]
+* jekyll-theme-midnight (0.2.0)
+* webrick (1.8.1)
+* jekyll version 3.9.3
+* ruby 3.1.3p185 (2022-11-24 revision 1a6b16756e) [arm64-darwin23]

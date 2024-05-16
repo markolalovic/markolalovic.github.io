@@ -1,11 +1,29 @@
-<!-- based on: 
-	https://github.com/oxinabox/oxinabox.github.io/blob/master/_includes/nav.html 
--->
 <nav>
 	<ul>
 		{% for item in include.nav %}		
 		<li>
+			{% if item.text == "Blog" %}
+			<a href="{{ site.baseurl }}{{ item.url }}">
+				<span class="icon">
+					<svg width="15" height="14" id="external-link-icon"
+					     viewBox="0 0 24 24">
+						<g transform="translate(-5,-5) scale( 1.4 )">
+ 							<path 
+								stroke="currentColor" 
+								stroke-linecap="round" 
+								stroke-linejoin="round" 
+								stroke-width="1.5"
+								fill="none"
+						 		d="m10 6h-4c-1.10457 0-2 .89543-2 2v10c0 1.1046.89543 2 2 2h10c1.1046 0 2-.8954 2-2v-4m-4-10h6m0 0v6m0-6-10 10">
+						 	</path>
+						</g>
+					</svg>
+				</span>
+				<span class="icon-text">{{ item.text }}</span>
+			</a>
+			{% else %}
 			<a href="{{ site.baseurl }}{{ item.url }}">{{ item.text }}</a>
+			{% endif %}
 		</li>
 		{% endfor %}
 	</ul>
