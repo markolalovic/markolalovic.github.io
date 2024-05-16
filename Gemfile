@@ -38,3 +38,7 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 # For midnight theme
 gem "github-pages", group: :jekyll_plugins
 gem "webrick", "~> 1.8"
+
+# Dependabot alert
+# Upgrade rexml to version 3.2.7 or later
+gem "rexml", ">= 3.2.7"
