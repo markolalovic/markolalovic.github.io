@@ -1,0 +1,41 @@
+<style>
+    .my-favicon {
+        font-family: "Poetsen One";
+        font-weight: 900;
+        fill: #60990a;
+        /* font-size: 310px; */
+        font-size: 320px;
+    }
+    body {
+    /* background-color: black; */
+    }
+</style>
+<svg width="512" height="512" id="ml-icon">
+    <rect
+        fill="none"
+        x="0"
+        y="0"
+        width="512"
+        height="512"
+        stroke="black"
+        stroke-width="1"
+        style="display: block;"                 
+    />
+    <circle 
+        fill="none"
+        cx="256" 
+        cy="256" 
+        r="256" 
+        stroke="black"
+        stroke-width="1"
+        style="display: none;" 
+    />
+    <text id="text-ml" class="my-favicon">ML</text>
+</svg>
+<script>
+    const textX = 35;
+    const textY = 365;
+    const textML = document.getElementById("text-ml");
+    textML.setAttribute("x", textX);
+    textML.setAttribute("y", textY);
+</script>

@@ -1,0 +1,207 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+///// setup
+// The green blocks layout style is taken from: https://www.oxinabox.net/
+// see also:
+// https://github.com/oxinabox/oxinabox.github.io/blob/master/stylesheets/styles.css
+
+////
+// fonts
+//
+$body-font-family: "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$em-font-family: "OpenSansItalic", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+$heading-font-family: $body-font-family;
+
+////
+// color scheme
+//
+// nav buttons
+$nav-color: #71ab13;
+$nav-color-2: #659e10;
+$nav-border-color: #5d910b;
+
+$nav-hover-color: #7dc013;
+$nav-hover-color-2: #74b314;
+$nav-hover-background-color: #7abf13;
+
+// emphasize colors
+$em-color: #bae14e;
+$em-color-2: #659e10;
+
+// link colors
+$link-color: #ffcc00;
+$link-color-hover: #ffeb9b;
+
+// background and borders colors
+$body-background-color: #3c3c3c;
+$body-background-color-2: #313131;
+$section-background-color: #3c4144;
+$section-border-color: #a5c941;
+
+// typography
+body {
+  font-family: $body-font-family;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-style: normal;
+  color: #f0e7d5;
+  background: $body-background-color;
+  background: linear-gradient($body-background-color, $body-background-color-2);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $heading-font-family;
+}
+
+// main content
+#main_content {
+  max-width: 800px;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  // display: block;
+}
+
+.wrapper {
+  // background-color: blue;  
+  max-width:800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+}
+section {
+  // background-color: rgb(0, 187, 255);    
+  padding: 0px;  
+  max-width: 750px;
+  #title {
+    // background-color: green;
+    .credits {
+      // background-color: red;
+      font-family: $heading-font-family;
+      margin-top: -10px;
+    }
+  }
+}
+
+p {
+  text-align: justify;
+}
+
+em, .em {
+  font-family: $em-font-family;
+  font-weight: normal;
+  color: $em-color;
+}
+
+.home-links {
+  padding-left: 10px;
+}
+
+.contact {
+  margin-top: 35px;
+  margin-left: 35px;
+  ul {
+    li {
+      padding-bottom: 5px;
+    }
+  }
+}
+
+.section_block {
+  padding: 30px 10px 30px 10px;
+  margin: 20px;
+  background: $section-background-color;
+  border-radius: 5px;
+  border: 1px solid $section-border-color;
+  line-height: 1.6;
+}
+
+.column_block {
+  max-width: 250px;
+  display: inline-block;
+}
+
+.column_block_wide {
+  max-width: 480px;
+  display: inline-block;  
+  vertical-align: top;
+}
+
+.column_block img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 33px;
+}
+
+#header {
+  display: flex;
+  nav {
+    background: none;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+    ul {
+      li {
+        font-family: $heading-font-family;
+        display: auto;
+        padding: 0 0.5rem;
+        a {
+          color: white;
+          font-size: larger;
+          border: 1px solid $nav-border-color;          
+          background: linear-gradient($nav-color, $nav-color-2);
+          background-color: $nav-color;
+          margin-top: auto;
+
+          &:hover {
+            background: linear-gradient($nav-hover-color, $nav-hover-color-2);
+            background-color: $nav-hover-background-color;
+            border: 1px solid $nav-hover-color-2;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media print, screen and (max-width: 480px) {
+  // do not hide header buttons
+  #header {
+    margin-top: auto;
+    nav {  
+      ul {
+        // and prevent wrap
+        white-space: nowrap
+      }
+    }
+  }
+  section {
+    margin-top: auto;
+  }
+  nav {
+    display: block;
+  }
+  .column_block {
+    width: 100%;
+    display: inline-block;
+  }
+  
+  .column_block_wide {
+    width: 100%;
+    display: inline-block;  
+    vertical-align: top;
+  }
+}
+
+// icons
+.icon,
+.icon-text {
+    vertical-align: top;
+    display: inline-block;
+}
