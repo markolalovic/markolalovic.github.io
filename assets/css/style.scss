@@ -81,6 +81,8 @@ section {
     // background-color: green;
     .credits {
       // background-color: red;
+      // color: #696969;
+      color: #8a8686;    
       font-family: $heading-font-family;
       margin-top: -10px;
     }
@@ -106,7 +108,8 @@ em, .em {
   margin-left: 35px;
   ul {
     li {
-      padding-bottom: 5px;
+      // background-color: #5d910b;
+      padding-bottom: 7px;
     }
   }
 }
@@ -152,6 +155,7 @@ em, .em {
         display: auto;
         padding: 0 0.5rem;
         a {
+          text-decoration: none;
           color: white;
           font-size: larger;
           border: 1px solid $nav-border-color;          
@@ -206,4 +210,30 @@ em, .em {
 .icon-text {
     vertical-align: top;
     display: inline-block;
+}
+
+// For Lighthouse Accessibility (Links rely on color to be distinguishable.)
+$link-border-color: #79797660;
+a {
+  text-decoration: underline;
+  text-decoration-color: $link-border-color;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-color: lighten($link-border-color, 20%);
+}
+
+.icon-text-link {
+  text-decoration: underline;
+  text-decoration-color: $link-border-color;
+  text-underline-offset: 2px;  
+}
+
+.icon-text-link:hover {
+  text-decoration-color: lighten($link-border-color, 20%);
+}
+
+.no-underline {
+  text-decoration: none;
 }
