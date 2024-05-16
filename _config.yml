@@ -5,7 +5,7 @@ baseurl: ""
 title: Marko Lalovic
 author: Marko Lalovic
 github_username: markolalovic
-description: Marko Lalovic's homepage.
+description: "Marko Lalovic's homepage: bio, contact and link to blog posts on optimization, machine learning, statistics and areas of applied mathematics."
 
 # Build settings
 plugins:
