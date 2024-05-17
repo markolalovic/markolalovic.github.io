@@ -38,7 +38,7 @@ $link-color-hover: #ffeb9b;
 // background and borders colors
 $body-background-color: #3c3c3c;
 $body-background-color-2: #313131;
-$section-background-color: #3c4144;
+$section-background-color: dimgray;
 $section-border-color: #a5c941;
 
 html{
@@ -85,10 +85,6 @@ section {
       margin-top: -10px;
     }
   }
-}
-
-p {
-  text-align: justify;
 }
 
 em, .em {
@@ -211,7 +207,7 @@ em, .em {
 }
 
 // For Lighthouse Accessibility (Links rely on color to be distinguishable.)
-$link-border-color: #79797660;
+$link-border-color: #797976;
 a {
   text-decoration: underline;
   text-decoration-color: $link-border-color;

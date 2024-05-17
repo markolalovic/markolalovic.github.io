@@ -10,15 +10,7 @@ title: Home
         <li>
             <em>
                 <span class="icon">
-                    <!-- location -->
-                    <svg width="18" height="23" id="github-icon">
-                        <g transform="translate(0,2) scale( 0.8 )">
-                            <path 
-                                fill="currentColor"                            
-                                d="M12 10c-1.104 0-2-.896-2-2s.896-2 2-2 2 .896 2 2-.896 2-2 2m0-5c-1.657 0-3 1.343-3 3s1.343 3 3 3 3-1.343 3-3-1.343-3-3-3m-7 2.602c0-3.517 3.271-6.602 7-6.602s7 3.085 7 6.602c0 3.455-2.563 7.543-7 14.527-4.489-7.073-7-11.072-7-14.527m7-7.602c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602">
-                            </path>
-                        </g>
-                    </svg>
+                    {% include svgs/location.svg %}
                 </span>
                 <span class="icon-text">Hamburg</span>
             </em>
@@ -29,16 +21,7 @@ title: Home
             <li>
                 <a href="https://github.com/markolalovic" class="no-underline">
                     <span class="icon">
-                        <svg width="20" height="30" id="github-icon">
-                            <g transform="translate(0,2) scale( 0.9 )">
-                                <path 
-                                    stroke="currentColor"
-                                    stroke-width="1px"
-                                    fill="none"
-                                    d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5">
-                                </path>
-                            </g>
-                        </svg>
+                        {% include svgs/github.svg %}
                     </span>
                     <span class="icon-text icon-text-link">GitHub</span>
                 </a>
@@ -46,16 +29,7 @@ title: Home
             <li>
                 <a href="https://twitter.com/MarkoLalovic" class="no-underline">
                     <span class="icon">
-                        <svg width="21" height="30" id="twitter-icon">
-                            <g transform="translate(0,2) scale( 0.9 )">
-                                <path
-                                    stroke="currentColor"
-                                    stroke-width="1px"                                
-                                    fill="none"
-                                    d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c0 -.249 1.51 -2.772 1.818 -4.013z">
-                                </path>
-                            </g>
-                        </svg>
+                        {% include svgs/twitter.svg %}
                     </span>
                     <span class="icon-text icon-text-link">Twitter</span>
                 </a>
@@ -63,20 +37,7 @@ title: Home
             <li>
                 <a href="https://stackexchange.com/users/4968676/marko-lalovic" class="no-underline">
                     <span class="icon">
-                        <svg width="20" height="20" id="se-icon"
-                             viewBox="0 0 408.71239300659147 466">
-                            <g transform="translate(0,50) scale( 0.9 )">
-                                <path 
-                                d="M0 66.57C0 29.96 29.98 0 66.62 0h266.47c8.75 0 17.42 1.72 25.5 5.07 8.08 3.34 15.42 8.25 21.61 14.43s11.09 13.52 14.44 21.6a66.444 66.444 0 0 1 5.07 25.47z" 
-                                    fill="currentColor"/>
-                                <path d="M399.71 299.57H0c0 36.62 29.98 66.57 66.62 66.57h166.55V466l99.92-99.86c8.75 0 17.42-1.72 25.5-5.06a66.644 66.644 0 0 0 21.61-14.44 66.56 66.56 0 0 0 14.44-21.59 66.531 66.531 0 0 0 5.07-25.48z" 
-                                    fill="currentColor"/>
-                                <path d="M0 99.86h399.71v66.57H0z" 
-                                    fill="currentColor"/>
-                                <path d="M0 199.71h399.71v66.58H0z" 
-                                    fill="currentColor"/>
-                            </g>
-                        </svg>
+                        {% include svgs/se.svg %}
                     </span>
                     <span class="icon-text icon-text-link">StackExchange</span>
                 </a>
@@ -87,44 +48,27 @@ title: Home
 
 <div class="column_block_wide">
     <div class="section_block">
-        My research interests lie at the intersection of theoretical computer science, 
-        applied mathematics, and machine learning. My current focus is on 
-        developing more effective algorithms with provable guarantees. 
-        I am also interested in developing applications, especially in 
-        areas such as bioinformatics and medical sciences. In particular 
-        when it comes to designing AI systems that are guided by structure 
-        and geometry.
-        <br/>
-        I obtained a BSc in Computer Science and Mathematics from the 
-        <a href="https://www.uni-lj.si/en/university">University of Ljubljana</a>, 
-        and a MSc in Industrial Mathematics from the 
-        <a href="https://www.uni-hamburg.de/en.html">University of Hamburg</a>.
-        I was a research intern at two departments at the 
-        <a href="https://www.ijs.si/ijsw/JSI">Jozef Stefan Institute</a>
-        in Ljubljana and later worked at various tech startups, where I gained 
-        experience in building and deploying large-scale machine learning models.
+        My research interests touch several areas of computer science, applied mathematics and statistics. Currently, my focus is on developing more effective algorithms with provable guarantees. I am also interested in developing applications to computational science and designing AI systems. I enjoy applying mathematics to problems from various fields and employing techniques from machine learning and statistical analysis.
+        <br/> I obtained a BSc in Computer Science and Mathematics from the <a href="https://www.uni-lj.si/en/university">University of Ljubljana</a>, and a MSc in Industrial Mathematics from the <a href="https://www.uni-hamburg.de/en.html">University of Hamburg</a>. I was a research intern at two departments at the <a href="https://www.ijs.si/ijsw/JSI">Jozef Stefan Institute</a> in Ljubljana and worked at various tech startups, where I gained experience in building and deploying large-scale machine learning models.
     </div>
 
     <div class="section_block">
         <p>
             Note: This page is still under construction.
         </p>
-    <!--
         <ul>
-        <li>Year: 2024, Author.<br/> Venue
-	    <em> Award </em> <br/> 
+        <li>Year: 2024, Author. Venue <br/> 
+    	    <!-- <em> Award </em> <br/>  -->
             <span>
                 [
-                    {{site.url}}/publications/{{pub.key}}.pdf
+                    <!-- {{site.url}}/publications/{{pub.key}}.pdf -->
                     <a href="">pdf</a>,
-                    {{site.url}}/publications/{{pub.key}}.bib
+                    <!-- {{site.url}}/publications/{{pub.key}}.bib -->
                     <a href="">bib</a>,
-                    {{pub.link}}
+                    <!-- {{pub.link}} -->
                     <a href="">link</a>
-                    <a href="{{site.url}}/{{pub.supl}}">site</a>,
                 ]
              </span>
         </ul>
-    -->
     </div>
 </div>
