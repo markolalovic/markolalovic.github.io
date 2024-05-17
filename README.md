@@ -4,7 +4,7 @@ My homepage
 Added some modifications to [Jekyll Midnight theme](https://github.com/pages-themes/midnight):
 
 * added favicon and some other details
-* changed the theme a bit so that Lighthouse report gives 100 percent on accessibility
+* changed the theme a bit for accessibility
 * added green boxes layout design
 	* taken from: [https://github.com/oxinabox/oxinabox.github.io](https://github.com/oxinabox/oxinabox.github.io)
 
