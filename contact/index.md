@@ -4,7 +4,7 @@ title: Contact
 ---
 
 ## Emails
- * [marko@lalovic.me](mailto:marko@lalovic.me)
+ * [marko@lalovic.io](mailto:marko@lalovic.io)
  * [marko.lalovic@tuhh.de](mailto:marko.lalovic@tuhh.de)
 
 ## Other Profiles
