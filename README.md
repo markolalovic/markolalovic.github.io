@@ -1,15 +1,14 @@
-# markolalovic.github.io - My Homepage
+# My Homepage
 
-This repository contains my personal homepage, built using the [Jekyll Midnight theme](https://github.com/pages-themes/midnight) with a few modifications.
+This repository contains my homepage, built with the [Jekyll Midnight theme](https://github.com/pages-themes/midnight) and some modifications.
 
-## Modifications Made:
+## Modifications
 
 * Added favicon and some minor details
 * Changed the theme a bit for better accessibility
-* Added a green boxes layout design
-	* Taken from: [https://github.com/oxinabox/oxinabox.github.io](https://github.com/oxinabox/oxinabox.github.io)
+* Added boxes layout design taken from: [https://github.com/oxinabox/oxinabox.github.io](https://github.com/oxinabox/oxinabox.github.io)
 
-## Local Development:
+## Testing
 
 To test the site locally, build and serve it at http://127.0.0.1:4000/, using:
 
