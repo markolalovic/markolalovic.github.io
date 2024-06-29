@@ -1,6 +1,6 @@
 # My Homepage
 
-This repository contains my homepage, built with the [Jekyll Midnight theme](https://github.com/pages-themes/midnight) and some modifications.
+This repository contains my homepage, built with the [Jekyll Midnight theme](https://github.com/pages-themes/midnight) with some added modifications.
 
 ## Modifications
 
