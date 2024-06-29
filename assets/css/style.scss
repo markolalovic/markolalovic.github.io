@@ -111,21 +111,24 @@ em, .em {
   }
 }
 
-.pub_links {
-  ul {
-    li {
-      padding-bottom: 7px;
-    }
-  }  
-}
-
 .section_block {
-  padding: 30px 10px 30px 10px;
   margin: 20px;
   background: $section-background-color;
   border-radius: 5px;
   border: 1px solid $section-border-color;
   line-height: 1.6;
+}
+
+.pad_block_wide {
+  padding: 30px;
+}
+
+.pad_block {
+  padding: 30px 10px 20px 10px;
+}
+
+.pad_bottom {
+  padding-bottom: 7px;
 }
 
 .column_block {
